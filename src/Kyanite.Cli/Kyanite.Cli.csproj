@@ -17,4 +17,9 @@
     <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Mono.Options" />
+    <PackageReference Include="Spectre.Console" />
+  </ItemGroup>
+
 </Project>
