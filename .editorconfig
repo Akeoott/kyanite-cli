@@ -10,7 +10,7 @@ indent_size = 4
 
 [*.cs]
 # File Header
-file_header_template = SPDX-License-Identifier: FSL-1.1-ALv2\nCopyright 2026-present Akeoot <akeoot@pm.me>
+file_header_template = SPDX-FileCopyrightText: 2026-present Akeoot <akeoot@pm.me>\nSPDX-License-Identifier: FSL-1.1-ALv2
 dotnet_diagnostic.IDE0073.severity = warning
 
 # Using Directives
