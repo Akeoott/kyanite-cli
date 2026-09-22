@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Kyanite.Cli/Kyanite.Cli.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+
+  </Folder>
+</Solution>
