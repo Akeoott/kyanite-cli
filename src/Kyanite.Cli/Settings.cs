@@ -9,5 +9,5 @@ internal record Settings(Scan Scan)
 }
 
 internal record Scan(
-    bool ShouldScan = false, string? ScanPath = null)
-;
+    bool ShouldScan = false, string? ScanPath = null
+);
