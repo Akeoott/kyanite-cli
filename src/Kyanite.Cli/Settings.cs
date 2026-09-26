@@ -4,7 +4,7 @@
 namespace Kyanite.Cli;
 
 internal record Settings(
-    Scan Scan = default!
+    Scan Scan = null!
 )
 {
     public Settings() : this(

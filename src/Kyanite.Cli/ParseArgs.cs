@@ -2,15 +2,18 @@
 // SPDX-License-Identifier: FSL-1.1-ALv2
 
 using System.Collections.Generic;
+
 using Kyanite.Cli.Assets;
+
 using Mono.Options;
+
 using Spectre.Console;
 
 namespace Kyanite.Cli;
 
 internal static class ParseArgs
 {
-    public static Settings settings = new();
+    private static Settings _settings = new();
 
     public static Settings Init(string[] args)
     {
@@ -46,14 +49,14 @@ internal static class ParseArgs
         if (positional.Count > 0)
             Fail($"Unexpected argument \"{string.Join(" ", positional)}\"");
 
-        settings = new Settings(
+        _settings = new Settings(
             Scan: new Scan(
                 ShouldScan: shouldScan,
                 ScanPath: scanPath
             )
         );
 
-        return settings;
+        return _settings;
     }
 
     private static void ShowHelpAndExit()
