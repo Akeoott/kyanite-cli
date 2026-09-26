@@ -40,7 +40,7 @@ dotnet_naming_style.underscore_camel_case.capitalization = camel_case
 # Formatting Enforcement
 dotnet_diagnostic.IDE0055.severity = error
 
-[*.{csproj,props,targets,json,jsonc,slnx}]
+[*.{yml,yaml,csproj,props,targets,json,jsonc,slnx}]
 indent_size = 2
 
 [*.md]
