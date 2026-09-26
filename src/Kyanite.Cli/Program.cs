@@ -5,7 +5,7 @@ using System.IO;
 
 namespace Kyanite.Cli;
 
-internal class Program()
+internal static class Program
 {
     internal static int Main(string[] args)
     {

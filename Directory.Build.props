@@ -14,4 +14,11 @@
     <Using Include="System.Runtime.Versioning" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Roslynator.Analyzers">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
 </Project>

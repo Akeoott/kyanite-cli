@@ -3,9 +3,8 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-  </ItemGroup>
-  <ItemGroup>
     <PackageVersion Include="Mono.Options" Version="6.12.0.148" />
+    <PackageVersion Include="Roslynator.Analyzers" Version="5.0.0" />
     <PackageVersion Include="Spectre.Console" Version="0.57.2" />
   </ItemGroup>
 </Project>
