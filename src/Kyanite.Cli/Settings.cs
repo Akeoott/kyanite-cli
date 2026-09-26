@@ -3,17 +3,11 @@
 
 namespace Kyanite.Cli;
 
-internal record Settings(
-    Scan Scan = null!
-)
+internal record Settings(Scan Scan)
 {
-    public Settings() : this(
-        new Scan()
-    )
-    { }
+    public Settings() : this(new Scan()) { }
 }
 
 internal record Scan(
-    bool ShouldScan = false,
-    string? ScanPath = null
-);
+    bool ShouldScan = false, string? ScanPath = null)
+;
