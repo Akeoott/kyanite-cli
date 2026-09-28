@@ -18,8 +18,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Mono.Options" />
     <PackageReference Include="Spectre.Console" />
+    <PackageReference Include="System.CommandLine" />
   </ItemGroup>
 
 </Project>
