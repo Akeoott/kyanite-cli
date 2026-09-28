@@ -4,9 +4,9 @@
 using System.CommandLine;
 using System.IO;
 
-using Spectre.Console;
-
 using Kyanite.Cli.Utils;
+
+using Spectre.Console;
 
 namespace Kyanite.Cli.Commands;
 
