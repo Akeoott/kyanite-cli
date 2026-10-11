@@ -2,6 +2,8 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/Kyanite.Cli/Kyanite.Cli.csproj" />
+    <Project Path="src/Kyanite.Models/Kyanite.Models.csproj" />
+    <Project Path="src/Kyanite.Analyzers/Kyanite.Analyzers.csproj" />
   </Folder>
   <Folder Name="/tests/">
 
