@@ -13,8 +13,8 @@ updates:
       semver-minor-days: 7
       semver-patch-days: 3
     labels:
-      - "type/Dependencies"
-      - "type/Security"
+      - "type/dependencies"
+      - "type/security"
     groups:
       non-major-updates:
         patterns:
