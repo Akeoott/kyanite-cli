@@ -4,6 +4,7 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/Akeoott/kyanite-cli.git</RepositoryUrl>
 
+    <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
